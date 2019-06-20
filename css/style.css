@@ -1,0 +1,188 @@
+.backlight {
+    background-color: lightgray;
+    border-radius: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+.progress {
+    background-color:blue;
+    border-top-left-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#background{
+    background-color: black;
+    margin-left: 6vw;
+    padding: 4vw;
+    color: white;
+}
+
+h1{
+    padding: top 4vw;
+    font-size: 3.5vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+    font-family:cursive,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
+
+hr {
+    background-color:yellow;
+    height: 0.3vw;
+    padding: 0.1vw;
+}
+
+li,a {
+        padding: 3px;
+        font-size: 2vw;
+        color: greenyellow;
+}
+
+#headbackground{
+    padding: 5px;
+    background-image: url("bk2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: blue;
+}
+
+#headbackground img {
+    border-radius: 50%;
+    width: 16vw;
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+#intr {
+    font-size: 9vw;
+    font-style: italic;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.3, red), color-stop(0.5,white),color-stop(0.8, green) );
+    background-image: gradient( linear, left top, right top,  color-stop(0.3, red),  color-stop(0.5, white), color-stop(0.8, green) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#subhead{
+    font-size: 1.4vw;
+    background-color: blue;
+    padding-bottom: 0.6vw;
+    margin-bottom: 2vw;
+    margin-left: 8vw;
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle ;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.4vw;
+}
+
+.tbutton
+{
+    position: fixed;
+    right: 5%;
+    top: 50%;
+    bottom: 50%;
+    opacity: 0.4;
+}
+
+.tbutton:hover 
+{   
+    opacity: 1;
+}
+
+.tbutton img {
+    border-radius: 50%;
+    width: 16vw;
+    margin-right: 7vw;
+    margin-left: 4vw;
+    width:5vw; 
+    height:5vw;
+}
+
+#mySidenav a {
+    position: fixed;
+    left: -8vw;
+    transition: 0.3s;
+    padding: 0.5vw;
+    width: 11vw;
+    text-decoration: none;
+    font-size: 1.6vw;
+    color: white;
+    border-radius: 0 0.5vw 0.5vw 0;    
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#mySidenav a img {
+    width:3vw;
+    height:3vw;
+}
+
+#about {
+    top: 40%;
+    background-color: violet;
+}
+
+#experience {
+    top: 50%;
+    background-color: indigo;
+}
+
+#education {
+    top: 60%;
+    background-color: blue;
+}
+
+#skills {
+    top: 70%;
+    background-color: green;
+}
+
+#projects {
+    top: 80%;
+    background-color: orange;
+}
+
+#contact {
+    top: 90%;
+    background-color: red;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.473);
+    transition: 0.3s;
+    width: 20%;
+    height: 30%;
+    background-color: white;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(70, 72, 87, 0.651);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    color: black;
+  }
