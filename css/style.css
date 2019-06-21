@@ -45,6 +45,11 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    margin:0;
+    padding: 0;
+}
+
 hr {
     background-color:yellow;
     height: 0.3vw;
@@ -53,7 +58,7 @@ hr {
 }
 
 li,a {
-        padding: 3px;
+        /* padding: 3px; */
         font-size: 2vw;
         color: greenyellow;
 }
@@ -217,5 +222,4 @@ p {
     display: table-cell;
   }
   
-  /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px; display: table; padding-bottom: 2vw;}
