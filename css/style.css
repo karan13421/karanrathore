@@ -41,12 +41,14 @@ h2 {
     font-family:cursive,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: red;
+    margin-bottom: 0;
     text-transform: uppercase;
 }
 
 hr {
     background-color:yellow;
     height: 0.3vw;
+    margin-top: 0;
     padding: 0.1vw;
 }
 
@@ -92,7 +94,15 @@ li,a {
 }
 
 ul{
+    list-style-type: square ;
+}
+
+ul > ul {
     list-style-type: circle ;
+}
+
+ul > ul > li {
+    color: white;
 }
 
 ol{
