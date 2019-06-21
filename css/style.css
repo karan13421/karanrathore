@@ -198,22 +198,14 @@ p {
     padding: 2px 16px;
     color: black;
     background-color: gray;
-    overflow: hidden;
+    height: 15vw;
   }
 
   .column {
-    float: left;
     width: 30%;
     padding: 0 10px;
     display: table-cell;
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px; display: table;}
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  .row {margin: 0 -5px; display: table; padding-bottom: 2vw;}
