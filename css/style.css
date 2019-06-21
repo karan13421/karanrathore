@@ -1,3 +1,11 @@
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
 .backlight {
     background-color: lightgray;
     border-radius: 5vw;
@@ -173,9 +181,13 @@ p {
 .card {
     box-shadow: 0 4px 8px 0 rgba(233, 236, 25, 0.842);
     transition: 0.3s;
-    width: 20%;
-    height: 30%;
+    padding: 16px;
+    text-align: center;
     background-color: purple;
+  }
+
+  .card a {
+      text-decoration-line: none;
   }
   
   .card:hover {
@@ -186,4 +198,22 @@ p {
     padding: 2px 16px;
     color: black;
     background-color: gray;
+    overflow: hidden;
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    display: table-cell;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px; display: table;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
