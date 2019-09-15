@@ -4,6 +4,15 @@
       display: block;
       margin-bottom: 20px;
     }
+
+    .tbutton{
+        display: none;
+    }
+
+    #mySidenav{
+        display: none;
+    }
+
   }
 
 .backlight {
@@ -83,7 +92,7 @@ li,a {
     font-size: 9vw;
     font-style: italic;
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0.3, red), color-stop(0.5,white),color-stop(0.8, green) );
-    background-image: gradient( linear, left top, right top,  color-stop(0.3, red),  color-stop(0.5, white), color-stop(0.8, green) );
+    /* background-image: gradient( linear, left top, right top,  color-stop(0.3, red),  color-stop(0.5, white), color-stop(0.8, green) ); */
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
