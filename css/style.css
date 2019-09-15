@@ -1,8 +1,12 @@
 @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+    .column{
+       width: 100%; 
       display: block;
       margin-bottom: 20px;
+    }
+
+    .container{
+        height: 22vh;
     }
 
     .tbutton{
@@ -11,6 +15,10 @@
 
     #mySidenav{
         display: none;
+    }
+
+    .backlight,.progress{
+        max-height: 2vh;
     }
 
   }
