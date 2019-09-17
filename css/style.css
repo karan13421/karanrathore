@@ -21,7 +21,13 @@
         max-height: 2vh;
     }
 
+    #intr {
+     font-size: 1vw;
+    }
+
+
   }
+
 
 .backlight {
     background-color: lightgray;
@@ -81,19 +87,21 @@ li,a {
 }
 
 #headbackground{
-    padding: 5px;
+    padding: 0.3vw;
     background-image: url("bk2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     background-color: blue;
+
+    white-space: nowrap;
 }
 
 #headbackground img {
     border-radius: 50%;
     width: 16vw;
-    margin-right: 70px;
-    margin-left: 30px;
+    margin-right: 7vw;
+    margin-left: 3vw;
 }
 
 #intr {
@@ -104,6 +112,10 @@ li,a {
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
 }
 
 #subhead{
